@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Sans-serif;
+}
+
+body{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1f1d1dc9;
+    color: rgb(0, 0, 0);
+}
+
+.container{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.buttons{
+    margin-top: 40px;
+    margin-left: 8px;
+    display: inline;
+}
+
+.start{
+    margin-right: 5px;
+}
+.start, .end{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 20px;
+}
+

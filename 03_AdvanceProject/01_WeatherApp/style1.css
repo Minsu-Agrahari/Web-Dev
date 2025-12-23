@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #222;
+    color: aliceblue;
+}
+
+.card{
+    min-height: 120px;
+    width: 85%;
+    max-width: 500px;
+    background: linear-gradient(176deg, #10a38b, #0a5979, #1e5de6);
+    margin: 100px auto 50px;
+    padding: 30px 50px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header input{
+    flex: 1;
+    height: 65px;
+    width: 70%;
+    offset: 0;
+    border: 0;
+    border-radius: 50px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.header button{
+    offset: 0;
+    border: 0;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.header button img{
+    width: 25px;
+    text-align: center;
+}
+
+.MainBody .weather-icon{
+    height: 250px;
+}
+
+.MainBody .temp{
+    font-size: 75px;
+}
+
+.MainBody .city{
+    font-size: 50px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 45px;
+}
+
+.col .icon{
+    margin-bottom: 10px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 12px;
+    margin-top: 10px;
+    font-size: 20px;
+    display: none;
+}

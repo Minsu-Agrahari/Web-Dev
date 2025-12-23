@@ -1,0 +1,46 @@
+/* 1 */
+#mainTopic{
+    color: blue;
+}
+
+/* 2 */
+*{
+    text-align: center;
+}
+
+/* 3 */
+h1, h3, h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+/* 4 */
+#Paragraph{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+/* 5 */
+button{
+    color: azure;
+    background-color: purple;
+}
+
+/* 6 */
+button:hover{
+    color: blue;
+    background-color: yellow;
+}
+
+/* 7 */
+#Paragraph:nth-of-type(2n+1){
+    color: yellow;
+}
+
+/* 8 */
+#mainTopic::first-letter{
+    color: red;
+}
+
+#yes:checked + label{
+    color: darkgreen;
+}

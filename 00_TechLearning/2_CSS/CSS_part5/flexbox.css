@@ -1,0 +1,69 @@
+h2{
+    text-align: center;
+}
+
+.flexbox{
+    height: 300px;
+    width: 80%;
+    background-color: rgba(83, 226, 16, 0.788);
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#Violet{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: violet;
+}
+
+#Indigo{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: Indigo;
+}
+
+#Blue{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: blue;
+}
+
+#Green{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: Green;
+}
+
+#Yellow{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: Yellow;
+}
+
+#Organge{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: orangered;
+}
+
+#Red{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: red;
+}
+
+.color{
+    text-align: center;
+    font-size: 0.5cm;
+    justify-content: center;
+}

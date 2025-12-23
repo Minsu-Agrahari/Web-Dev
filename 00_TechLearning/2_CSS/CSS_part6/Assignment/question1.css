@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+}
+
+.body{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#header{
+    background-color: pink;
+    grid-column: 1/13;
+    grid-row: 1;
+}
+
+#sidebar{
+    background-color: pink;
+    grid-column: 1/4;
+    grid-row: 2/12;
+}
+
+#navigation{
+    background-color: pink;
+    grid-column: 4/9;
+    grid-row: 2;
+}
+
+#ads{
+    background-color: pink;
+    grid-column: 9/13;
+    grid-row: 2/12;
+}
+
+#main{
+    background-color: pink;
+    grid-column: 4/9;
+    grid-row: 3/12;
+}
+
+#footer{
+    background-color: pink;
+    grid-column: 1/13;
+    grid-row: 12/12;
+}
+
+@media (max-width : 720px) {
+    #header{
+        background-color: pink;
+        grid-column: 1/13;
+        grid-row: 1;
+    }
+    
+    #navigation{
+        background-color: pink;
+        grid-column: 1/13;
+        grid-row: 2;
+    }
+
+    #sidebar{
+        background-color: pink;
+        grid-column: 1/4;
+        grid-row: 3/12;
+    }
+    
+    #main{
+        background-color: pink;
+        grid-column: 4/13;
+        grid-row: 3/12;
+    }
+
+    #ads{
+        background-color: pink;
+        grid-column: 1/4;
+        grid-row: 12;
+    }
+    
+    #footer{
+        background-color: pink;
+        grid-column: 4/13;
+        grid-row: 12;
+    }        
+}

@@ -1,0 +1,33 @@
+.card{
+    /* height: 300px; */
+    width: 250px;
+    border: 2px solid white;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgb(250, 38, 38);
+    transition: 1s;
+    overflow: hidden;
+    vertical-align: top;
+}
+body{
+
+        background-image: url("profil_card_image/black_backgroud.jpg");
+   
+}
+.description{
+    padding: 0px 2px 0px 2px;
+    text-align: center;
+    background-color: azure;
+}
+img{
+    height: auto;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    background-color: aliceblue;
+}
+
+
+.card:hover{
+    box-shadow: 8px 8px 16px red;
+}

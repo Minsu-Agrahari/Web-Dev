@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    color: antiquewhite;
+    margin :auto;
+    width: 100vh;
+    height: 100vh;
+    padding : auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+}
+
+h3{
+    font-size: 28px;
+}
+.button{
+    height : 10em;
+    width : 10em;
+    margin-left: 5px;
+    display: inline-block;
+    border : 5px solid rgb(36, 2, 2);
+    border-radius: 10px
+}
+
+#grey{
+    background-color: grey;
+}
+#white{
+    background-color: antiquewhite;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+#orange{
+    background-color: orange;
+}

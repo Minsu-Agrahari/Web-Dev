@@ -1,0 +1,49 @@
+.container{
+    height: 400px;
+    width: 400px;
+    background-color: orangered;
+    border: 2px rgb(2, 49, 47) solid;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    border: 2px solid black ;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.box:hover{
+    background-color: yellowgreen;
+    box-shadow: 18px 18px 26px rgb(102, 3, 3);
+    border-radius: 50%;
+}
+
+.container_bar_box{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 2px solid lightseagreen;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.bar_box_item{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 5px;
+    font-size: 24px;
+    line-height: 50px;
+}

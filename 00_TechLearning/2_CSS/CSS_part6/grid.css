@@ -1,0 +1,14 @@
+.container{
+    height: 600px;
+    width: 300px;
+    background-color: black;
+    display: grid;
+}
+
+.box{
+    height: 50px;
+    width: 100px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}

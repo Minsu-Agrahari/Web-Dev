@@ -1,0 +1,22 @@
+div{
+    height: 100px;
+    width: 100px;
+    text-align: end;
+}
+
+#one{
+    background-color: rgb(0, 208, 255);
+}
+
+#two{
+    background-color: rgb(18, 155, 11);
+    position: relative;
+    z-index: -1;
+    bottom: 50px;
+}
+
+#three{
+    background-color: olivedrab;
+    position: relative;
+    z-index: 2;
+}

@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #1b1b1b;
+    opacity: 0.5px;
+}
+
+nav{
+    background: #1b1b1b;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 2.5px;
+}
+
+nav .menu {
+    display: flex;
+    align-items: center;
+}
+
+nav .menu .logo{
+    font-size: 45px;
+}
+
+nav .menu ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav .menu ul a{
+    font-size: 23px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 450;
+}
+
+nav .menu ul a:hover{
+    background-color: rgb(239, 232, 228);
+    color: black;
+    border-radius: 19px;
+    transition: 0.65s;
+}
+
+.main .imge{
+    height: 100vh;
+    width: 100%;
+    background: url('simple-website-bg-img.jpg');
+    background-position: center;
+    background-position-y: -170px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.main .imge::before{
+    content: '';
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.main .center{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    color: #fff;
+    /* background-color: #613131; */
+    transform: translate(-50%, -50%);
+    padding: 25px;
+}
+
+.main .center{
+    text-align: center;
+    font-size: 50px;
+}
+
+.main .center .buts{
+    margin-top: 20px;
+}
+
+.main .center .buts button{
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid #fff; 
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.center .buts button:first-child{
+    color: #fff;
+    background: none;
+}
+
+.center .buts button:first-child:hover{
+    background: rgb(255, 255, 255);
+    color: #000;
+    
+    border-radius: 19px;
+    transition: 1.75s;
+}
+
+.subscribe:hover{
+    box-shadow: 10px 10px;
+    
+    border-radius: 19px;
+    background: black;
+    color: #fff;
+    transition:  all 0.75s ease-in-out ;
+}
