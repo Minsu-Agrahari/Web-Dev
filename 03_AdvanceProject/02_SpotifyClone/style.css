@@ -13,15 +13,62 @@ body{
 nav{
     font-family: "Ubuntu", sans-serif;
 }
-
 nav ul{
     display: flex;
+    align-items: center;
     list-style-type: none;
     height: 65px;
-    background-color: yellow;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 252, 252);
+}
+nav ul li{
+    padding: 0 12px;
 }
 
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 /* spotiy image taget */
 .brand img{
-    width: 50px;
+    width: 44px;
+    padding: 0 8px;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: "Varela Round", sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myProgressBar{
+    width: 95vh;
+}
+.icons{
+    margin-top: 14px;
+    cursor: pointer;
 }

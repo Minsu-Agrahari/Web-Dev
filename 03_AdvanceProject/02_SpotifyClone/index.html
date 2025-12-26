@@ -6,21 +6,41 @@
     <title>Spotify-App</title>
 
     <!-- Link css file -->
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <!-- Naviagation bar -->
-     <nav>
+    <nav>
         <ul>
-            <li class="brand"><img src="logo.png" alt="Spotify-logo"></li>
+            <li class="brand"><img src="logo.png" alt="Spotify-logo">Spotify</li>
             <li>Home</li>
             <li>About</li>
         </ul>
-     </nav>
+    </nav>
 
 
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    
+    <!-- Player portion -->
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fa-solid fa-3x fa-forward-step"></i>
+            <i class="fa-regular fa-3x fa-circle-play"></i>
+            <i class="fa-solid fa-3x fa-backward-step"></i>
+        </div>
+    </div>
+
+    <!-- Adding font-awesome icon pack -->
+    <script src="https://kit.fontawesome.com/fa692b3b28.js" crossorigin="anonymous"></script>
     <!-- Link js file -->
-     <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
