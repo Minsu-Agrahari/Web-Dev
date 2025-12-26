@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+/* default */
+*{
+    margin: 0; /* m0 */
+    padding: 0; /* p0 */
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    font-family: "Ubuntu", sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: yellow;
+}
+
+/* spotiy image taget */
+.brand img{
+    width: 50px;
+}
