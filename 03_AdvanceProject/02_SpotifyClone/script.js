@@ -1,1 +1,1 @@
-console.log("Start");
+console.log("Welcome to Spotify");
