@@ -17,12 +17,18 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 25px;
+    border-radius: 24px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 .Navi .logo #spotifyLogo    {
     height: 42px;
     width: 42px;
-    margin-left: 10px;
+    margin: 0 10px;
     cursor: pointer;
 }
 .Navi .logo #brand_name{
@@ -34,7 +40,50 @@ body{
     display: flex;
     gap: 35px;
     list-style: none;
+    cursor: pointer;
 }
+
+/* Main body */
+.container{
+    margin: 4vh auto;
+    min-height: 70vh;
+    min-width: 30%;
+    background-color: black;
+    border-radius: 24px;
+
+    color: antiquewhite;
+
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100vh;
+}
+.containerTitle{
+    margin: 30px;
+    font-size: 2rem;
+}
+
+/* music -- body  */
+.songlist{
+    /* min-height: 10px;  <--------------------*/
+    min-height: 55vh;  
+    width: 50vw;
+    margin: 5vh 5vh;
+    background-color: brown;
+
+    border-radius: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 .footer{
@@ -47,7 +96,7 @@ body{
     bottom: 0;
     justify-content: center;
     align-items: center;
-    border-radius: 25px;
+    border-radius: 24px;
 }
 .footer #range{
     display: block;
